@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  all_food
+  all_food = []
   groceries.each do |food_type, foods|
     foods.collect {|food| all_food << food}
   end

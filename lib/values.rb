@@ -11,7 +11,6 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
   groceries.each do |food_type, foods|
-    foods.collect |
-    
+    foods.collect {|food| food}
   end
 end

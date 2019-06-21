@@ -11,4 +11,6 @@ require 'pry'
 def get_the_min(groceries)
   sorted_foods = []
   groceries.collect {|food_type, foods| foods.collect {|food|sorted_foods << food}
+  sorted_foods.sort
+  sorted_foods[0]
 end

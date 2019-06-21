@@ -14,4 +14,5 @@ def get_the_keys(groceries)
   groceries.each do |food_types, food|
     groceries_type << food_types
   end
+  groceries_type
 end

@@ -12,5 +12,5 @@ def get_the_values(groceries)
   #code your solution here!
   all_foods = []
   groceries.map {|food_types, food| all_foods << food}
-  
+  all_foods
 end

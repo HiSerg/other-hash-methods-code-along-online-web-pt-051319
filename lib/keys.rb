@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
-  
-  groceries
+  groceries.each do |food_types, food|
+    food_types
+  end
 end

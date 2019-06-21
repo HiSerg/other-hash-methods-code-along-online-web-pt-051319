@@ -10,7 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  all_foods = []
-  groceries.map {|food_types, food| all_foods << food}
-  all_foods
+  groceries.each do |food_type, foods|
+    foods.collect |
+    
+  end
 end

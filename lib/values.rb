@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.map {|food_types, food| food}
+  all_foods = []
+  groceries.map {|food_types, food| all_foods << food}
   
 end
